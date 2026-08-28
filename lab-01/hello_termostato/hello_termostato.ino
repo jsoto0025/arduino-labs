@@ -5,7 +5,7 @@
 // The common LCD1602 I2C backpack address is 0x27.
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-#define DHTPIN 8
+#define DHTPIN 3
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
